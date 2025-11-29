@@ -4,7 +4,7 @@ using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.View;
 
-namespace wipo.patches.CaparisonColor
+namespace TestingMod.patches.CaparisonColor
 { 
     [HarmonyPatch(typeof(AgentVisuals), "Refresh", new Type[] { typeof(bool),typeof(bool),typeof(Equipment), typeof(bool), typeof(bool) })]
     internal class RefreshPatch

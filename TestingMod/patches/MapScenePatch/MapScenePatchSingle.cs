@@ -11,7 +11,7 @@ using TaleWorlds.Engine;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade.View;
 
-namespace wipo.patches.MapScenePatch
+namespace TestingMod.patches.MapScenePatch
 {
     [HarmonyPatch(typeof(MobilePartyVisual), "Tick")]
     public class MapScenePatchSingle

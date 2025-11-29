@@ -9,7 +9,7 @@ using TaleWorlds.CampaignSystem.Siege;
 using TaleWorlds.Core;
 using TaleWorlds.Localization;
 
-namespace wipo.patches.ClanStuff
+namespace TestingMod.patches.ClanStuff
 {
     [HarmonyPatch(typeof(DefaultArmyManagementCalculationModel), nameof(DefaultArmyManagementCalculationModel.CanPlayerCreateArmy))]
     internal class CanPlayerCreateArmyPatch : DefaultArmyManagementCalculationModel

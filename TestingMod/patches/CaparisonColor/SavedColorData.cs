@@ -1,4 +1,4 @@
-﻿namespace wipo.patches.CaparisonColor
+﻿namespace TestingMod.patches.CaparisonColor
 {
     static class SavedColorData
     {

@@ -4,14 +4,14 @@ using TaleWorlds.CampaignSystem.CampaignBehaviors;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
-namespace wipo
+namespace TestingMod
 {
     public class SubModule : MBSubModuleBase
     {
         protected override void OnSubModuleLoad()
         {
             base.OnSubModuleLoad();
-            new Harmony("wipo.patches").PatchAll();
+            new Harmony("TestingMod.patches").PatchAll();
         }
 
         public override void OnGameInitializationFinished(Game game)

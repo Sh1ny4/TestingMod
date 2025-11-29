@@ -5,7 +5,7 @@ using SandBox.Missions.MissionLogics.Towns;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 
-namespace wipo.patches
+namespace TestingMod.patches
 {
     [HarmonyPatch(typeof(TownCenterMissionController), nameof(TownCenterMissionController.AfterStart))]
     internal class TownHorsePatch : TownCenterMissionController

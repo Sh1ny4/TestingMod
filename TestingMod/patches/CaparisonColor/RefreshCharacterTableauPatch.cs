@@ -3,7 +3,7 @@ using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.View.Tableaus;
 
-namespace wipo.patches.CaparisonColor
+namespace TestingMod.patches.CaparisonColor
 { 
     [HarmonyPatch(typeof(Mission), "OnEquipItemsFromSpawnEquipment")]
     internal class RefreshCharacterTableauPatch

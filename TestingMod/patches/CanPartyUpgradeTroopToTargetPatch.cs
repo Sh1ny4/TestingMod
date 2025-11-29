@@ -7,7 +7,7 @@ using TaleWorlds.CampaignSystem.CharacterDevelopment;
 using TaleWorlds.CampaignSystem.GameComponents;
 using TaleWorlds.CampaignSystem.Party;
 
-namespace wipo.patches
+namespace TestingMod.patches
 {
     [HarmonyPatch(typeof(DefaultPartyTroopUpgradeModel), nameof(DefaultPartyTroopUpgradeModel.CanPartyUpgradeTroopToTarget))]
     internal class CanPartyUpgradeTroopToTargetPatch

@@ -2,7 +2,7 @@
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Settlements;
 
-namespace wipo.patches.ClanStuff
+namespace TestingMod.patches.ClanStuff
 {
     [HarmonyPatch(typeof(Kingdom), nameof(Kingdom.CreateArmy))]
     internal class CreateArmyPatch

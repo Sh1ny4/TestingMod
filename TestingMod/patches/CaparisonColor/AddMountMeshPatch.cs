@@ -6,7 +6,7 @@ using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.View;
 
-namespace wipo.patches.CaparisonColor
+namespace TestingMod.patches.CaparisonColor
 { 
     [HarmonyPatch(typeof(MountVisualCreator), "AddMountMesh")]
     internal class AddMountMeshPatch

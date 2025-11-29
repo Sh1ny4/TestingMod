@@ -3,7 +3,7 @@ using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade.View;
 using TaleWorlds.MountAndBlade.View.Scripts;
 
-namespace wipo.patches.CaparisonColor
+namespace TestingMod.patches.CaparisonColor
 { 
     [HarmonyPatch(typeof(CharacterSpawner), "SpawnMount")]
     internal class SpawnMountPatch

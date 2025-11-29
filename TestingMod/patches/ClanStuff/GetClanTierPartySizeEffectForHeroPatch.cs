@@ -2,7 +2,7 @@
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.GameComponents;
 
-namespace wipo.patches.ClanStuff
+namespace TestingMod.patches.ClanStuff
 {
     [HarmonyPatch(typeof(DefaultPartySizeLimitModel), "GetClanTierPartySizeEffectForHero")]
     internal class GetClanTierPartySizeEffectForHeroPatch : DefaultPartySizeLimitModel
