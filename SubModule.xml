@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Testing Mod"/>
+	<Id value="TestingMod"/>
+	<Version value="v1.3.6"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<ModuleType value ="Community" />
+	<DependedModules>
+		<DependedModule Id="Bannerlord.Harmony"/>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="StoryMode"/>
+		<DependedModule Id="CustomBattle"/>
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="TestingMod" />
+			<DLLName value="TestingMod.dll" />
+			<SubModuleClassType value="TestingMod.SubModule" />
+			<Tags />
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<!-- npcs -->
+		<XmlNode>
+			<XmlName id="EquipmentRosters" path="npcs/sandbox_equipment_sets"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="npcs/spnpccharacters"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<!-- factions -->
+		<XmlNode>
+			<XmlName id="Factions" path="factions/spclans"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Kingdoms" path="factions/spkingdoms"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>
