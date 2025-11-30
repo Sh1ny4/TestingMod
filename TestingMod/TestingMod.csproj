@@ -254,6 +254,7 @@
     <Compile Include="patches\CanGetDisorganizedPatch.cs" />
     <Compile Include="patches\CanPartyUpgradeTroopToTargetPatch.cs" />
     <Compile Include="patches\ClanStuff\CanPlayerCreateArmyPatch.cs" />
+    <Compile Include="patches\ClanStuff\ClanChoiceSettlementTier.cs" />
     <Compile Include="patches\ClanStuff\CreateArmyPatch.cs" />
     <Compile Include="patches\ClanStuff\GetClanTierPartySizeEffectForHeroPatch.cs" />
     <Compile Include="patches\FoodPatch.cs" />
