@@ -254,7 +254,7 @@
     <Compile Include="patches\CanGetDisorganizedPatch.cs" />
     <Compile Include="patches\CanPartyUpgradeTroopToTargetPatch.cs" />
     <Compile Include="patches\ClanStuff\CanPlayerCreateArmyPatch.cs" />
-    <Compile Include="patches\ClanStuff\ClanChoiceSettlementTier.cs" />
+    <Compile Include="patches\ClanStuff\DetermineInitialCandidatesPatch.cs" />
     <Compile Include="patches\ClanStuff\CreateArmyPatch.cs" />
     <Compile Include="patches\ClanStuff\GetClanTierPartySizeEffectForHeroPatch.cs" />
     <Compile Include="patches\FoodPatch.cs" />
@@ -274,6 +274,9 @@
     <Compile Include="patches\UIstuff\EncyclopediaUnitPage.cs" />
     <Compile Include="SubModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="patches\EarlyWipStuff\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

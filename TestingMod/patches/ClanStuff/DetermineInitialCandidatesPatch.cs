@@ -6,7 +6,7 @@ using TaleWorlds.CampaignSystem.Election;
 namespace TestingMod.patches.ClanStuff
 {
     [HarmonyPatch(typeof(SettlementClaimantDecision), nameof(SettlementClaimantDecision.DetermineInitialCandidates))]
-    internal class ClanChoiceSettlementTier
+    internal class DetermineInitialCandidatesPatch
     {
         [HarmonyPostfix]
         public static void Postfix(ref SettlementClaimantDecision __instance, ref IEnumerable<DecisionOutcome> __result)
