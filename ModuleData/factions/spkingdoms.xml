@@ -2,7 +2,7 @@
 <Kingdoms>
   <Kingdom id="aserai"
           owner="Hero.lord_3_1" 
-          banner_key="11.5.5.5000.5000.764.764.1.0.0.463.129.129.500.500.764.764.1.0.0" 
+          banner_key="11.5.5.5000.5000.764.764.1.0.0.463.2.2.500.500.764.764.1.0.0" 
           primary_banner_color="0xffFCDE90" 
           secondary_banner_color="0xff000000" 
           label_color="0xffFCDE90" 
@@ -24,7 +24,7 @@
   </Kingdom>
   <Kingdom id="battania"
           owner="Hero.lord_5_1" 
-          banner_key="11.2.2.4000.4000.764.764.1.0.0.460.40.40.500.500.764.764.1.0.0" 
+          banner_key="11.2.2.4000.4000.764.764.1.0.0.460.35.35.500.500.764.764.1.0.0" 
           primary_banner_color="0xff284E19" 
           secondary_banner_color="0xff000000" 
           label_color="0xff284E19" 
@@ -121,7 +121,7 @@
   </Kingdom>
   <Kingdom id="khuzait"
           owner="Hero.lord_6_1" 
-          banner_key="11.16.16.5000.5000.764.764.1.0.0.461.40.40.500.500.764.764.1.0.0" 
+          banner_key="11.73.73.5000.5000.764.764.1.0.0.461.35.35.500.500.764.764.1.0.0" 
           primary_banner_color="0xff00A0BA" 
           secondary_banner_color="0xff000000" 
           label_color="0xff00A0BA" 
@@ -165,7 +165,7 @@
   </Kingdom>
   <Kingdom id="vlandia"
           owner="Hero.lord_4_1" 
-          banner_key="11.146.14.1536.1536.764.764.1.0.0.424.132.15.497.497.764.764.0.0.0  " 
+          banner_key="11.12.12.1536.1536.764.764.1.0.0.424.15.15.497.497.764.764.0.0.0" 
           primary_banner_color="0xff2C4D86" 
           secondary_banner_color="0xff000000" 
           label_color="0xff2C4D86" 

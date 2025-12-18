@@ -259,7 +259,6 @@
     <Compile Include="patches\ClanStuff\GetClanTierPartySizeEffectForHeroPatch.cs" />
     <Compile Include="patches\FoodPatch.cs" />
     <Compile Include="patches\GetCharacterWagePatch.cs" />
-    <Compile Include="patches\IsSearchAvailablePatch.cs" />
     <Compile Include="patches\LoyaltyPatch.cs" />
     <Compile Include="patches\RegularMercenariesSpawnChancePatch.cs" />
     <Compile Include="patches\TownHorsePatch.cs" />

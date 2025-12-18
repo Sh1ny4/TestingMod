@@ -31,7 +31,7 @@ namespace TestingMod.patches.ClanStuff
             }
             if (Clan.PlayerClan.Tier < 4)
             {
-                disabledReason = new TextObject("{=wipo_clan_tier_too_low}You need a higher clan Tier to create an army", null);
+                disabledReason = new TextObject("{=wld_clan_tier_too_low}You need a higher clan Tier to create an army", null);
                 __result = false;
                 return false;
             }
