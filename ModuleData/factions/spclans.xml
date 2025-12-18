@@ -220,7 +220,7 @@
                 tier="6"
                 owner="Hero.lord_1_14"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_s"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.200.5.0.237.237.683.905.0.0.0.200.5.0.247.237.844.906.0.1.0.326.5.0.215.206.764.714.0.1.0" />
         <Faction id="clan_empire_south_2"
@@ -228,7 +228,7 @@
                 tier="4"
                 owner="Hero.lord_1_15"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_s"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.214.5.0.463.463.764.764.0.0.0" />
         <Faction id="clan_empire_south_3"
@@ -236,7 +236,7 @@
                 tier="5"
                 owner="Hero.lord_1_17"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_s"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.108.5.0.485.485.764.644.0.0.0.325.5.0.454.454.764.844.0.0.0" />
         <Faction id="clan_empire_south_4"
@@ -244,7 +244,7 @@
                 tier="4"
                 owner="Hero.lord_1_30"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_s"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.418.5.0.147.147.604.882.0.0.0.107.5.0.454.454.764.764.0.0.0.418.5.0.147.147.924.882.0.0.0" />
         <Faction id="clan_empire_south_5"
@@ -252,7 +252,7 @@
                 tier="3"
                 owner="Hero.lord_1_63"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_s"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.119.5.0.344.344.764.658.0.0.0.217.5.0.303.303.764.924.0.0.0.510.5.0.243.505.774.787.0.0.0" />
         <Faction id="clan_empire_south_6"
@@ -260,7 +260,7 @@
                 tier="3"
                 owner="Hero.lord_1_54"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_s"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.304.5.0.366.366.763.844.0.0.0.423.5.0.420.420.763.764.0.1.0" />
         <Faction id="clan_empire_south_7"
@@ -268,7 +268,7 @@
                 tier="3"
                 owner="Hero.lord_1_55"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_s"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.510.5.0.507.55.764.1025.0.0.0.459.5.0.507.507.764.764.0.0.0.510.5.0.507.171.764.997.0.0.0.510.5.0.507.171.764.532.0.0.0.510.5.0.507.55.764.501.0.0.0" />
         <Faction id="clan_empire_south_8"
@@ -276,7 +276,7 @@
                 tier="1"
                 owner="Hero.lord_1_72"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_s"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.147.5.0.454.454.764.765.0.0.0" />
         <Faction id="clan_empire_south_9"
@@ -284,7 +284,7 @@
                 tier="2"
                 owner="Hero.lord_SE9_l"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_s"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.505.5.0.460.50.764.764.0.0.0.459.5.0.150.150.660.658.0.0.0.459.5.0.150.150.871.658.0.0.0.459.5.0.150.150.871.870.0.0.0.459.5.0.150.150.660.870.0.0.0.505.5.0.460.50.765.764.0.0.10" />
 
@@ -294,7 +294,7 @@
                 tier="6"
                 owner="Hero.lord_1_7"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_w"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.776.777.1.0.0.203.5.0.305.305.764.774.0.0.0.323.5.0.509.509.764.764.0.0.0" />
         <Faction id="clan_empire_west_2"
@@ -302,7 +302,7 @@
                 tier="5"
                 owner="Hero.lord_1_9"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_w"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.337.5.0.272.272.764.672.0.0.0.301.5.0.292.292.764.916.0.0.90.301.5.0.292.292.764.844.0.0.270" />
         <Faction id="clan_empire_west_3"
@@ -310,7 +310,7 @@
                 tier="4"
                 owner="Hero.lord_1_11"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_w"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.103.5.0.454.454.764.764.0.0.0" />
         <Faction id="clan_empire_west_4"
@@ -318,7 +318,7 @@
                 tier="4"
                 owner="Hero.lord_1_40"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_w"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.201.5.0.454.454.914.764.0.0.180.201.5.0.454.454.764.764.0.0.0.201.5.0.454.454.614.764.0.0.180" />
         <Faction id="clan_empire_west_5"
@@ -326,7 +326,7 @@
                 tier="3"
                 owner="Hero.lord_1_45"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_w"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.776.777.1.0.0.418.5.0.285.285.764.764.0.0.0.500.5.0.454.454.764.764.0.0.0.500.5.0.380.380.764.762.0.0.0" />
         <Faction id="clan_empire_west_6"
@@ -334,7 +334,7 @@
                 tier="3"
                 owner="Hero.lord_1_52"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_w"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.336.5.0.454.454.764.764.0.1.180.340.5.0.171.171.764.564.0.0.0" />
         <Faction id="clan_empire_west_7"
@@ -342,7 +342,7 @@
                 tier="3"
                 owner="Hero.lord_1_53"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_w"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.423.5.0.454.454.764.764.0.0.1.340.5.0.300.300.764.754.0.0.0" />
         <Faction id="clan_empire_west_8"
@@ -350,7 +350,7 @@
                 tier="1"
                 owner="Hero.lord_1_71"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_w"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.764.764.1.0.0.419.5.0.454.454.764.764.0.0.0.335.5.0.15.15.873.642.0.0.325.335.5.0.15.15.655.642.0.0.42.335.5.0.15.15.651.882.0.0.134.335.5.0.15.15.877.882.0.0.214" />
         <Faction id="clan_empire_west_9"
@@ -358,7 +358,7 @@
                 tier="2"
                 owner="Hero.lord_WE9_l"
                 culture="Culture.empire"
-                super_faction="Kingdom.empire_w"
+                super_faction="Kingdom.empire"
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.776.777.1.0.0.343.5.0.419.348.764.910.0.0.0.106.5.0.422.411.764.651.0.0.0.505.5.0.87.47.764.805.0.0.0" />
 

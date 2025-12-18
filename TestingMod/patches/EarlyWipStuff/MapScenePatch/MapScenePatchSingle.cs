@@ -14,7 +14,7 @@ using TaleWorlds.MountAndBlade.View;
 namespace TestingMod.patches.MapScenePatch
 {
     [HarmonyPatch(typeof(MobilePartyVisual), "Tick")]
-    public class MapScenePatchSingle
+    public class TickPatch
     {
         [HarmonyPostfix]
         public static void Postfix(MobilePartyVisual __instance)
