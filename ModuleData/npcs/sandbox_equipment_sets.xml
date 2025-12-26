@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
-  <!-- #region Minor Leaders -->
   <!-- done -->
   <EquipmentRoster id="spc_lakepike_leader_0"
         culture="Culture.sturgia">
@@ -1825,5 +1824,4 @@
     <Flags IsNobleTemplate="true"
        IsCombatantTemplate="true" />
   </EquipmentRoster>
-  <!-- #endregion -->
 </EquipmentRosters>

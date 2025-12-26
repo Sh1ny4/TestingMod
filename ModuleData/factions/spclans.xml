@@ -362,7 +362,7 @@
                 is_noble="true"
                 banner_key="11.71.4.5000.5000.776.777.1.0.0.343.5.0.419.348.764.910.0.0.0.106.5.0.422.411.764.651.0.0.0.505.5.0.87.47.764.805.0.0.0" />
 
-    <!-- Khuzait -->         
+    <!-- Khuzait -->
         <Faction id="clan_khuzait_1"
                 name="{=CRSFOSil}Urkhunait"
                 tier="6"

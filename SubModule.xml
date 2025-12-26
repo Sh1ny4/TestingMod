@@ -2,7 +2,7 @@
 <Module>
 	<Name value="Testing Mod"/>
 	<Id value="TestingMod"/>
-	<Version value="v1.3.11"/>
+	<Version value="v1.3.12"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
 	<ModuleType value ="Community" />
@@ -27,34 +27,34 @@
 		<XmlNode>
 			<XmlName id="EquipmentRosters" path="npcs/sandbox_equipment_sets"/>
 			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="npcs/spnpccharacters"/>
 			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<!-- factions -->
 		<XmlNode>
 			<XmlName id="Factions" path="factions/spclans"/>
 			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
 			<XmlName id="Kingdoms" path="factions/spkingdoms"/>
 			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+				<GameType value="CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
 	</Xmls>
