@@ -2,10 +2,10 @@
 <Module>
 	<Name value="Testing Mod"/>
 	<Id value="TestingMod"/>
-	<Version value="v1.3.12"/>
+	<Version value="v1.3.13"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
-	<ModuleType value ="Community" />
+	<ModuleType value="Community" />
 	<DependedModules>
 		<DependedModule Id="Bannerlord.Harmony"/>
 		<DependedModule Id="Native"/>
