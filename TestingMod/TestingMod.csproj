@@ -252,7 +252,6 @@
   <ItemGroup>
     <Compile Include="patches\BanditsAroundHideoutsPatch.cs" />
     <Compile Include="patches\CanGetDisorganizedPatch.cs" />
-    <Compile Include="patches\CanPartyUpgradeTroopToTargetPatch.cs" />
     <Compile Include="patches\ClanStuff\CanPlayerCreateArmyPatch.cs" />
     <Compile Include="patches\ClanStuff\DetermineInitialCandidatesPatch.cs" />
     <Compile Include="patches\ClanStuff\CreateArmyPatch.cs" />
