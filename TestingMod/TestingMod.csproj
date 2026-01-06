@@ -256,6 +256,8 @@
     <Compile Include="patches\ClanStuff\DetermineInitialCandidatesPatch.cs" />
     <Compile Include="patches\ClanStuff\CreateArmyPatch.cs" />
     <Compile Include="patches\ClanStuff\GetClanTierPartySizeEffectForHeroPatch.cs" />
+    <Compile Include="patches\PerksRemover\DoesPartyHaveRequiredPerksForUpgradePatch.cs" />
+    <Compile Include="patches\PerksRemover\InitializeAllPatch.cs" />
     <Compile Include="patches\FoodPatch.cs" />
     <Compile Include="patches\GetCharacterWagePatch.cs" />
     <Compile Include="patches\LoyaltyPatch.cs" />

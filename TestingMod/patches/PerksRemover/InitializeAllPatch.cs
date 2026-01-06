@@ -1,10 +1,10 @@
 ﻿using HarmonyLib;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
 
-namespace TestingMod.patches.EarlyWipStuff
+namespace TestingMod.patches.PerksRemover
 {
     [HarmonyPatch(typeof(DefaultPerks), "InitializeAll")]
-    internal class PerksPatch
+    internal class InitializeAllPatch
     {
         [HarmonyPrefix]
         static bool Prefix()
