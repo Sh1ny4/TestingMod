@@ -256,22 +256,12 @@
     <Compile Include="patches\ClanStuff\DetermineInitialCandidatesPatch.cs" />
     <Compile Include="patches\ClanStuff\CreateArmyPatch.cs" />
     <Compile Include="patches\ClanStuff\GetClanTierPartySizeEffectForHeroPatch.cs" />
-    <Compile Include="patches\PerksRemover\DoesPartyHaveRequiredPerksForUpgradePatch.cs" />
-    <Compile Include="patches\PerksRemover\InitializeAllPatch.cs" />
-    <Compile Include="patches\FoodPatch.cs" />
-    <Compile Include="patches\GetCharacterWagePatch.cs" />
+    <Compile Include="patches\PerksRemoved.cs" />
+    <Compile Include="patches\PartyCosts.cs" />
     <Compile Include="patches\LoyaltyPatch.cs" />
     <Compile Include="patches\RegularMercenariesSpawnChancePatch.cs" />
     <Compile Include="patches\TownHorsePatch.cs" />
-    <Compile Include="patches\UIstuff\EncyclopediaClanPage.cs" />
-    <Compile Include="patches\UIstuff\EncyclopediaConceptPage.cs" />
-    <Compile Include="patches\UIstuff\EncyclopediaFactionPage.cs" />
-    <Compile Include="patches\UIstuff\EncyclopediaFullScreen.cs" />
-    <Compile Include="patches\UIstuff\EncyclopediaHeroPage.cs" />
-    <Compile Include="patches\UIstuff\EncyclopediaHomePage.cs" />
-    <Compile Include="patches\UIstuff\EncyclopediaListPage.cs" />
-    <Compile Include="patches\UIstuff\EncyclopediaSettlementsPage.cs" />
-    <Compile Include="patches\UIstuff\EncyclopediaUnitPage.cs" />
+    <Compile Include="patches\FullscreenEncyclopedia.cs" />
     <Compile Include="SubModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
