@@ -7,18 +7,22 @@ using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.GauntletUI.Widgets.Encyclopedia;
 
+/// <summary>
+/// Attempt at making the in game encyclopedia in full screen
+/// </summary>
 namespace wipo.patches.UIstuff
 {
     [HarmonyPatch(typeof(EncyclopediaBar__TaleWorlds_CampaignSystem_ViewModelCollection_Encyclopedia_EncyclopediaNavigatorVM), nameof(EncyclopediaBar__TaleWorlds_CampaignSystem_ViewModelCollection_Encyclopedia_EncyclopediaNavigatorVM.SetAttributes))]
     internal class EncyclopediaFullScreen
     {
         [HarmonyPostfix]
-        static void Postfix(ref EncyclopediaBar__TaleWorlds_CampaignSystem_ViewModelCollection_Encyclopedia_EncyclopediaNavigatorVM __instance, ref Widget ____widget_1, ref EncyclopediaSearchBarBrushWidget ____widget_3, ref Widget ____widget_6)
+        static void Postfix(ref EncyclopediaBar__TaleWorlds_CampaignSystem_ViewModelCollection_Encyclopedia_EncyclopediaNavigatorVM __instance, ref Widget ____widget_1, ref Widget ____widget_5, ref Widget ____widget_6)
         {
-            ____widget_1.SuggestedHeight = 1440;
-            ____widget_1.SuggestedWidth = 2600;
-            ____widget_3.MarginLeft = 2000f;
-            ____widget_3.MarginBottom = 1200f;
+            Vec2 res = MBWindowManager.GetScreenResolution();
+            ____widget_1.SuggestedHeight = res.Y - 280f;
+            ____widget_1.SuggestedWidth = res.X - 40f;
+            ____widget_5.SuggestedHeight = res.Y - 280f;
+            ____widget_5.SuggestedWidth = res.X - 40f;
             ____widget_6.VerticalAlignment = VerticalAlignment.Top;
             ____widget_6.HorizontalAlignment = HorizontalAlignment.Right;
             ____widget_6.PositionYOffset = 0f;

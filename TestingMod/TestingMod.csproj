@@ -250,16 +250,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="patches\BanditsAroundHideoutsPatch.cs" />
-    <Compile Include="patches\CanGetDisorganizedPatch.cs" />
+    <Compile Include="patches\MiscPatches.cs" />
     <Compile Include="patches\PerksRemoved.cs" />
-    <Compile Include="patches\PartyCosts.cs" />
-    <Compile Include="patches\LoyaltyPatch.cs" />
     <Compile Include="patches\ProgressionTweaks\ClanProgressionPatches.cs" />
     <Compile Include="patches\ProgressionTweaks\DelayedBanerPatches.cs" />
     <Compile Include="patches\ProgressionTweaks\DelayedBannerCampaignBehavior.cs" />
-    <Compile Include="patches\RegularMercenariesSpawnChancePatch.cs" />
-    <Compile Include="patches\TownHorsePatch.cs" />
     <Compile Include="patches\FullscreenEncyclopedia.cs" />
     <Compile Include="SubModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
