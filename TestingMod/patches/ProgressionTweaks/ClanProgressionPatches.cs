@@ -18,7 +18,8 @@ namespace TestingMod.patches.ProgressionTweaks
             List<SettlementClaimantDecision.ClanAsDecisionOutcome> list = new List<SettlementClaimantDecision.ClanAsDecisionOutcome>();
             foreach (Clan clan in kingdom.Clans)
             {
-                if ((clan != __instance.ClanToExclude && !clan.IsUnderMercenaryService && !clan.IsEliminated && !clan.Leader.IsDead) && ((__instance.Settlement.IsVillage && clan.Tier > 1) || (__instance.Settlement.IsCastle && clan.Tier > 2) || (__instance.Settlement.IsTown && clan.Tier > 3)))
+                if ((clan != __instance.ClanToExclude && !clan.IsUnderMercenaryService && !clan.IsEliminated && !clan.Leader.IsDead) 
+                    && ((__instance.Settlement.IsCastle && clan.Tier > 2) || (__instance.Settlement.IsTown && clan.Tier > 3)))
                 {
                     list.Add(new SettlementClaimantDecision.ClanAsDecisionOutcome(clan));
                 }

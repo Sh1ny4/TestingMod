@@ -2,7 +2,7 @@
 <Module>
 	<Name value="Testing Mod"/>
 	<Id value="TestingMod"/>
-	<Version value="v1.3.15"/>
+	<Version value="v1.4.8"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
 	<ModuleType value="Community" />
@@ -24,14 +24,6 @@
 	</SubModules>
 	<Xmls>
 		<!-- npcs -->
-		<XmlNode>
-			<XmlName id="EquipmentRosters" path="npcs/sandbox_equipment_sets"/>
-			<IncludedGameTypes>
-				<GameType value="Campaign"/>
-				<GameType value="CampaignStoryMode"/>
-				<GameType value="CustomGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
 		<XmlNode>
 			<XmlName id="NPCCharacters" path="npcs/spnpccharacters"/>
 			<IncludedGameTypes>

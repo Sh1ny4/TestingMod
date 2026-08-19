@@ -1,6 +1,6 @@
 ﻿using HarmonyLib;
-using System.Collections.Generic;
 using System.Reflection.Emit;
+using System.Collections.Generic;
 using TaleWorlds.CampaignSystem.CampaignBehaviors;
 using TaleWorlds.CampaignSystem.GameComponents;
 using TaleWorlds.CampaignSystem.ViewModelCollection.ClanManagement;
