@@ -26,10 +26,11 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\bin\Win64_Shipping_Client\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.3.1.1, Culture=neutral, processorArchitecture=MSIL">
@@ -251,16 +252,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="patches\MiscPatches.cs" />
-    <Compile Include="patches\PerksRemoved.cs" />
-    <Compile Include="patches\ProgressionTweaks\ClanProgressionPatches.cs" />
-    <Compile Include="patches\ProgressionTweaks\DelayedBannerPatches.cs" />
     <Compile Include="patches\ProgressionTweaks\DelayedBannerCampaignBehavior.cs" />
-    <Compile Include="patches\FullscreenEncyclopedia.cs" />
+    <Compile Include="patches\ProgressionTweaks\DelayedBannerPatches.cs" />
     <Compile Include="SubModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="patches\EarlyWipStuff\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
